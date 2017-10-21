@@ -1,0 +1,74 @@
+body{
+    margin-left: 86px;
+}
+#main{
+   display: block;
+    float: center;
+    text-align: center;
+	/*padding: 10px 60px 60px 10px;
+    background: #fff;*/
+    position: fixed;
+    /*position: relative;*/
+    margin: 0;
+    padding: auto;
+    
+}
+  
+
+div{
+    
+    font-size: 12px;  
+    /*border: 2px solid black;
+    width: 10px;
+    height: 100px;*/
+    
+}
+
+#avion:hover{
+    border:1px solid gray;
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    color: skyblue;
+}
+#rubi:hover{
+    border:1px solid grey;
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    color: skyblue;
+}
+
+#corazon:hover{
+    border:1px solid grey;
+    font-family: 'Indie Flower', cursive;
+    background-color: white;
+    color: skyblue;   
+}
+
+#cafe:hover{
+    border:1px solid grey;
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    color: skyblue;
+}
+
+#plato:hover{
+    border:1px solid grey;
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    color: skyblue;
+}
+.box{
+    /*outline: 1px solid rgb(255, 94, 0);   aplicar para ver como esta dibujando mis elementos el html*/ 
+    position: relative;
+    width: 180px;
+    height:180 ;
+    padding: 6px;
+    box-sizing: border-box;
+    float: left;
+    margin-left:2px;
+    background-color: hsl(197, 33%, 96%);
+    line-height: 150%;
+}
+p{
+    text-align: center;
+}
