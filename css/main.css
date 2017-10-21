@@ -5,54 +5,45 @@ body{
    display: block;
     float: center;
     text-align: center;
-	/*padding: 10px 60px 60px 10px;
-    background: #fff;*/
     position: fixed;
-    /*position: relative;*/
     margin: 0;
     padding: auto;
     
-}
-  
+} 
 
 div{
-    
     font-size: 12px;  
-    /*border: 2px solid black;
-    width: 10px;
-    height: 100px;*/
-    
 }
 
 #avion:hover{
-    border:1px solid gray;
+    border:1px solid rgb(163, 162, 162);
     font-family: 'Oswald', sans-serif;
     background-color: white;
     color: skyblue;
 }
 #rubi:hover{
-    border:1px solid grey;
+    border:1px solid rgb(163, 162, 162);
     font-family: 'Oswald', sans-serif;
     background-color: white;
     color: skyblue;
 }
 
 #corazon:hover{
-    border:1px solid grey;
+    border:1px solid rgb(163, 162, 162);
     font-family: 'Indie Flower', cursive;
     background-color: white;
     color: skyblue;   
 }
 
 #cafe:hover{
-    border:1px solid grey;
+    border:1px solid rgb(163, 162, 162);
     font-family: 'Oswald', sans-serif;
     background-color: white;
     color: skyblue;
 }
 
 #plato:hover{
-    border:1px solid grey;
+    border:1px solid rgb(163, 162, 162);
     font-family: 'Oswald', sans-serif;
     background-color: white;
     color: skyblue;
@@ -60,15 +51,24 @@ div{
 .box{
     /*outline: 1px solid rgb(255, 94, 0);   aplicar para ver como esta dibujando mis elementos el html*/ 
     position: relative;
-    width: 180px;
-    height:180 ;
+    width: 200px;
+    height:220px ;
     padding: 6px;
     box-sizing: border-box;
     float: left;
-    margin-left:2px;
+    margin-left:1.5px;
     background-color: hsl(197, 33%, 96%);
     line-height: 150%;
 }
 p{
     text-align: center;
 }
+
+/*
+.icon-paperplane{
+    display: block;
+    text-align: center;
+    width:50px;
+    height: 50px;
+    size: 150px;
+}*/
